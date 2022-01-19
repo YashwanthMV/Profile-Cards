@@ -1,0 +1,112 @@
+ .container {  
+  height: 200vh;  
+  width: 200vw;  
+  max-height: 800px;  
+  max-width: 1280px;  
+  min-height: 600px;  
+  min-width: 1000px;  
+  display: flex;  
+  justify-content: space-around;  
+  align-items: center;  
+  margin: 0 auto;  
+ }  
+ .border {  
+  height: 369px;  
+  width: 290px;  
+  background: transparent;  
+  border-radius: 1;  
+  transition: border 1s;  
+  position: relative;  
+ }  
+ 
+ .card {  
+  height: 400px;  
+  width: 300px;  
+  background: black;   
+  border-radius: 10px;  
+  transition: background 0.8s;  
+  overflow: hidden;  
+  background:Black;  
+  display: flex;  
+  justify-content: center;  
+  align-items: center;  
+  position: relative;  
+ }  
+ .card0 {  
+  background: url("https://img.starbiz.com/resize/750x-/2019/05/28/kl-rahul-kings-xi-punjab-cricket-ipl-2018-ipl-6949.jpg") center center no-repeat;  
+  background-size: 300px;
+  display: flex;  
+ }  
+ .card0:hover {  
+  background: url("https://img.starbiz.com/resize/750x-/2019/05/28/kl-rahul-kings-xi-punjab-cricket-ipl-2018-ipl-6949.jpg") left center no-repeat;  
+  background-size: 400px;  
+ }  
+ .card0:hover h2 {  
+  opacity: 1;  
+ }  
+ .card0:hover .fab {  
+  opacity: 1;  
+ }
+
+.card1 {  
+  background: url("https://archive.gulte.com/content/2017/11/news/1509790839-1284.jpg") center center no-repeat;  
+  background-size: 300px;
+  display: flex;  
+ 
+ }  
+ .card1:hover {  
+  background: url("https://archive.gulte.com/content/2017/11/news/1509790839-1284.jpg") left center no-repeat;  
+  background-size: 400px;  
+ }  
+ .card1:hover h2 {  
+  opacity: 1;  
+ }  
+ .card1:hover .fab {  
+  opacity: 1;  
+ } 
+ 
+.card2 {  
+  background: url("https://i.pinimg.com/originals/b4/64/3d/b4643db7a209d67500b75974e26e0c4b.jpg") center center no-repeat;  
+  background-size: 300px;
+  display: flex;  
+ 
+ }  
+ .card2:hover {  
+  background: url("https://i.pinimg.com/originals/b4/64/3d/b4643db7a209d67500b75974e26e0c4b.jpg") left center no-repeat;  
+  background-size: 400px;  
+ }  
+ .card2:hover h2 {  
+  opacity: 1;  
+ }  
+ .card2:hover .fab {  
+  opacity: 1;  
+ }    
+ 
+ 
+ h2 {  
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+  font-size:15px;  
+  color: white;  
+  margin: 20px;  
+  opacity: 0;  
+  transition: opacity 1s;  
+ }  
+ .fab {  
+  opacity: 0;  
+  transition: opacity 1s; 
+  
+ }  
+ .icons {  
+  position: absolute;  
+  fill: #fff;  
+  color: #fff;  
+  height: 130px;  
+  top: 226px;  
+  width: 50px;  
+  display: flex;  
+  flex-direction: column;  
+  align-items: center;  
+  justify-content: space-around;
+  cursor:pointer;  
+ }
+ 
